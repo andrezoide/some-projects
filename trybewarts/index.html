@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- A classe spc-btw se refere ao justify-content: space-between; -->
+    <header class="header spc-btw">
+        <img src="./images/trybewarts-header-logo.svg" alt="Logo Trybewarts" class="trybewarts-header-logo">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form action="" class="trybewarts-login">
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="password" name="password" id="password" placeholder="Senha" required>
+            <button type="submit" id="button">Entrar</button>
+        </form>
+    </header>
+    <main>
+        <section>
+            <form action="" id="evaluation-form" name="evaluation">
+                <h2>Formulário de Avaliação</h2>
+                <div class="form-row">
+                    <input type="text" id="input-name" class="esquerda" placeholder="Nome">
+                    <input type="text" id="input-lastname" class="direita" placeholder="Sobrenome">
+                </div>
+                <div class="form-row">
+                    <input type="text" id="input-email" class="esquerda" placeholder="Email">
+                    <label for="house">Casa:</label>
+                    <select name="" id="house" class="direita">
+                        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="form-row spc-btw" style="align-items: baseline;">
+                    <div class="form-column" id="form-radios">
+                        <label id="label-family">Qual sua família?</label>
+                        <label class="label-input"><input type="radio" name="family" id="radio-frontend"
+                                value="Frontend">Família Frontend</label>
+                        <label class="label-input"><input type="radio" name="family" id="radio-backend"
+                                value="Backend">Família Backend</label>
+                        <label class="label-input"><input type="radio" name="family" id="radio-fullstack"
+                                value="FullStack">Família Fullstack</label>
+                    </div>
+                    <div class="form-column">
+                        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                        <div class="form-row" id="form-checks">
+                            <label class="label-input"><input type="checkbox" value="HoFs" class="subject">HoFs</label>
+                            <label class="label-input"><input type="checkbox" value="Jest" class="subject">Jest</label>
+                            <label class="label-input"><input type="checkbox" value="Promises"
+                                    class="subject">Promises</label>
+                            <label class="label-input"><input type="checkbox" value="React"
+                                    class="subject">React</label>
+                            <label class="label-input"><input type="checkbox" value="SQL" class="subject">SQL</label>
+                            <label class="label-input"><input type="checkbox" value="Python"
+                                    class="subject">Python</label>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="form-row rate-form">
+                    <label id="label-rate">Como você avalia a Trybewarts?</label>
+                </div>
+
+                <label for="areatext" class="textarea">Deixe seu comentário:</label>
+                <textarea maxlength="500" id="textarea" cols="30" rows="5" style="resize: none"></textarea>
+                <p id="counter">500</p>
+
+                <div class="form-row">
+                    <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
+                    <input type="checkbox" id="agreement">
+                </div>
+
+                <button type="submit" id="submit-btn" disabled onclick="hideContent()">Enviar</button>
+
+            </form>
+        </section>
+        <img src="images/trybewarts-colored.svg" alt="logo-trybewarts" id="trybewarts-forms-logo">
+    </main>
+    <footer>
+        <p>Direitos reservados à Trybewarts©</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

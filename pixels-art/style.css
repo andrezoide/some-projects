@@ -1,0 +1,59 @@
+body{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+h1{
+    font-size: 50px;
+    margin: 0 0 25px 0;
+}
+
+#color-palette li{
+    display: inline-block;
+    margin: 0 0 0 2px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+
+h1{
+    font-family: 'Finger Paint', cursive;
+    background-image: linear-gradient(to bottom, rgb(193, 44, 44), rgba(248, 13, 252, 0.397), rgba(0, 10, 199, 0.965));
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.pixel{
+    display: inline-block;
+    
+}
+
+.line{
+    margin: -5px;
+}
+#pixel-board{
+    margin-top: 15px;
+    
+}
+.pixel{
+    background-color: white;
+}
+
+#clear-board{
+    margin-top: 15px;
+    
+}
+
+#div-board-size{
+    margin: 15px 0 15px 0;
+}
+#board-size{
+    width: 50px;
+}

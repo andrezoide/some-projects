@@ -1,0 +1,153 @@
+body {
+  background: #0F102B;
+  color: white;
+}
+
+.header-wallet {
+  background:rgba(153, 153, 153, 0.159);
+  border-radius: 5px;
+  float: left;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 96vh;
+  width: 400px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.368);
+  justify-content: center;
+}
+
+.welcome {
+  box-shadow: 0 5px 25px rgba(115, 19, 212, 0.083);
+  border-radius: 10px;
+  background: rgba(153, 153, 153, 0.098);
+  color: rgba(0, 0, 0, 0.718);
+  padding: 0px 20px 0px;
+}
+
+.welcome h4 {
+  color: white;
+  font-weight: bolder;
+}
+
+.welcome h2 {
+  padding-top: 100px;
+}
+
+.total {
+  color: white;
+}
+
+.div-form {
+  background:rgba(153, 153, 153, 0.159);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.368);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.div-form input, select {
+  color: white;
+  border-radius: 10px;
+  background: #434459f1;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border: none;
+}
+
+.dispense-button {
+  padding: 15px 50px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bolder;
+}
+
+.dispense-button:hover {
+  background: rgba(0, 128, 0, 0.571);
+}
+
+.editForm {
+  background:rgba(153, 153, 153, 0.159);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.368);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.editForm input, select {
+  color: white;
+  border-radius: 10px;
+  background: #434459f1;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border: none;
+}
+
+.editForm button {
+  padding: 15px 50px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bolder;
+}
+
+.editForm button:hover {
+  background: rgba(0, 128, 0, 0.571);
+}
+
+.table-list {
+  background:rgba(153, 153, 153, 0.159);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.368);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 5px;
+  width: 1420px;
+}
+
+.table-list td {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.table-list h3 {
+  color: rgb(14, 14, 14);
+  font-weight: bolder;
+}
+
+.edit-button {
+  background: rgba(169, 171, 169, 0.571);
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bolder;
+}
+
+.delete-button {
+  background: rgba(255, 0, 0, 0.516);
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bolder;
+}

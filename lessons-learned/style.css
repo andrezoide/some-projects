@@ -1,0 +1,144 @@
+body {
+    background-color:rgb(253, 251, 251);
+    text-align: center;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+  }
+
+
+
+.texto2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.texto {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    letter-spacing: 0.2px;
+}
+
+#titulo {
+    font-family: 'Koulen', cursive;
+}
+
+#cabecalho {
+    top: 0;
+    position: fixed;
+    margin-top: 200px;
+    left: 190px;
+}
+
+.cabecao {
+    margin: 10px;
+    width: 400px;
+    display: inline-block;
+    box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.24), 0 0 1em rgba(117, 0, 128, 0.253);
+    border-radius: 10px;
+}
+
+.cabeca {
+    width: 270px;
+    position: relative;
+    display: inline-block;
+}
+
+.ue {
+    width: 270px;
+    position: relative;
+    display: inline-block;
+    height: 120px;
+}
+
+
+#minha_foto {
+    border-radius: 45%;
+    box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.24), 0 0 1em rgba(117, 0, 128, 0.253);
+}
+
+#licoes_aprendidas {
+    width: 250px;
+    text-align: center;
+    position: relative;
+    box-shadow: -10px -8px rgba(117, 0, 128, 0.726);
+    border-radius: 10px;
+    border: solid 2px rgba(0, 0, 0, 0.26);
+    margin: 10px;  
+    display: inline-block;
+    background-image:linear-gradient(to bottom, white, rgba(128, 0, 128, 0.116));
+
+}
+
+
+#licoes_a_aprender {
+    width: 250px;
+    text-align: center;
+    position: relative;
+    box-shadow: 10px -8px rgba(117, 0, 128, 0.726);
+    border-radius: 10px;
+    border: solid 2px rgba(0, 0, 0, 0.26);
+    margin: 10px;
+    display: inline-block;
+    background-image:linear-gradient(to bottom, white, rgba(128, 0, 128, 0.116));
+}
+
+#sobre_aprendizado {
+    border: solid 1px rgba(0, 0, 0, 0.123);
+    width: 300px;
+    position: relative;
+    background-image:linear-gradient(to bottom, white, rgba(128, 0, 128, 0.116));
+    box-shadow: 3px 3px 3px rgba(117, 0, 128, 0.295);
+    border-radius: 10px;
+}
+
+#tabela{
+    border: solid 1px rgba(0, 0, 0, 0.123);
+    width: 300px;
+    background-image:linear-gradient(to bottom, white, rgba(128, 0, 128, 0.116));
+    box-shadow: 3px 3px 3px rgba(117, 0, 128, 0.295);
+    border-radius: 10px;
+    
+}
+
+#aprendizado {
+    border: solid 1px rgba(0, 0, 0, 0.123);
+    width: 500px;
+    display: inline-block;
+    margin: 10px;
+    background-image:linear-gradient(to bottom, white, rgba(128, 0, 128, 0.116));
+    box-shadow: 3px 3px 3px rgba(117, 0, 128, 0.295);
+    border-radius: 10px;
+}
+
+
+
+#rodape {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.493);
+    bottom: 0;
+    position: fixed;
+}
+
+
+.lado-esquerdo {
+   position: relative;
+   float: left;
+   display: flex;
+}
+
+.lado-direito {
+    position: relative;
+    float: right;
+    display: flex;
+}
+
+.prala {
+    float: right;
+    padding: 20px;
+}

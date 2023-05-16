@@ -1,0 +1,31 @@
+.container-login {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.input-login {
+  border: 1px;
+  border-radius: 10px;
+  height: 30px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.btns-login {
+  display: flex;
+}
+
+.btn-login {
+  border-radius: 10px;
+  height: 40px;
+  width: 50%;
+}
+
+.btn-play {
+  background-color: rgb(30, 103, 30);
+}
+
+.btn-play:disabled {
+  background-color: #fcfcfc;
+}

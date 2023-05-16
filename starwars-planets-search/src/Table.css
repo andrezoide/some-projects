@@ -1,0 +1,11 @@
+.header-container {
+  background: black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.header-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
